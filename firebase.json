@@ -4,7 +4,7 @@
       "android": {
         "default": {
           "projectId": "medibridge-c4292",
-          "appId": "1:921705110989:android:a811ab729133bbe4f47884",
+          "appId": "",
           "fileOutput": "android/app/google-services.json"
         }
       },
@@ -12,9 +12,9 @@
         "lib/firebase_options.dart": {
           "projectId": "medibridge-c4292",
           "configurations": {
-            "android": "1:921705110989:android:a811ab729133bbe4f47884",
-            "ios": "1:921705110989:ios:40b8b6fc190a922af47884",
-            "web": "1:921705110989:web:f0b0293ae47d67a3f47884"
+            "android": "",
+            "ios": "1",
+            "web": ""
           }
         }
       }
