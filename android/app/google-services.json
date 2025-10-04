@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "921705110989",
+    "project_id": "medibridge-c4292",
+    "storage_bucket": "medibridge-c4292.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921705110989:android:a811ab729133bbe4f47884",
+        "android_client_info": {
+          "package_name": "com.example.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921705110989-cqak1eejtlcd9v280r6i3qlhlj59rljg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMqCRZqgB0FCn4-hm5cisKtx5aYAD85F0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "921705110989-cqak1eejtlcd9v280r6i3qlhlj59rljg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "921705110989-7nnirma3kmr7hr0hhtj9qr5j1l2vabrf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "medibridge.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

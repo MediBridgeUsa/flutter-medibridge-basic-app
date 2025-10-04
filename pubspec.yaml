@@ -1,0 +1,37 @@
+name: myapp
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.8.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: any
+  go_router: any
+  google_fonts: ^6.3.2
+  firebase_core: any
+  firebase_auth: any
+  cloud_firestore: any
+  provider: any
+  flutter_riverpod: any # Añadido para la gestión de estado
+  freezed_annotation: any
+  json_annotation: any
+  cloud_functions: ^6.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: any
+  build_runner: any
+  json_serializable: any
+  freezed: any
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/

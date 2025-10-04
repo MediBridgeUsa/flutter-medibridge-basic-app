@@ -1,0 +1,30 @@
+{
+  "name": "functions",
+  "scripts": {
+    "build": "tsc",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log",
+    "test": "npm run test:functions",
+    "test:functions": "mocha --require ts-node/register 'src/**/*.test.ts'",
+    "emu": "firebase emulators:start --import=./emulator-data --export-on-exit"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "firebase-admin": "^11.0.0",
+    "firebase-functions": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/mocha": "^10.0.0",
+    "@firebase/rules-unit-testing": "^3.0.0",
+    "mocha": "^10.0.0",
+    "ts-node": "^10.9.1"
+  },
+  "engines": {
+    "node": "20"
+  },
+  "private": true
+}
